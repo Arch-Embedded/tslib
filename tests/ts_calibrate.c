@@ -401,7 +401,7 @@ int main(int argc, char **argv)
 		return ts_validate(ts, boundary, validate_loops, validate_timeout);
 
 	put_string_center(xres / 2, yres / 4,
-			  "Touchscreen calibration utility", 1);
+			  "BVSpro touchscreen calibration", 1);
 	put_string_center(xres / 2, yres / 4 + 20,
 			  "Touch crosshair to calibrate", 2);
 
